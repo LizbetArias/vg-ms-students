@@ -29,8 +29,8 @@ springdoc:
 # Configuración de microservicios externos
 microservices:
      institution:
-          url: ${INSTITUTION_SERVICE_URL:http://localhost:9080/api/v1/institutions}
+          url: ${INSTITUTION_SERVICE_URL:https://jubilant-engine-g444pxjvrx6c9pj4-9080.app.github.dev/api/v1/institutions}
      classroom:
-          url: ${CLASSROOM_SERVICE_URL:http://localhost:9080/api/v1/classrooms}
+          url: ${CLASSROOM_SERVICE_URL:https://jubilant-engine-g444pxjvrx6c9pj4-9080.app.github.dev/api/v1/classrooms}
      user:
-          url: ${USER_SERVICE_URL:http://localhost:9083/api/v1/users}
+          url: ${USER_SERVICE_URL:https://jubilant-engine-g444pxjvrx6c9pj4-9083.app.github.dev/api/v1/users}
